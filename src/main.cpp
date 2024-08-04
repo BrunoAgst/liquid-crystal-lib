@@ -18,7 +18,7 @@ void sendCommand(uint8_t cmd);
 void setup() {
     configurePinMode();
     initLCD();
-    write("Coroca quer vir para o Sao Joao");
+    write("Hello World");
     delay(500);
     clear();
 
